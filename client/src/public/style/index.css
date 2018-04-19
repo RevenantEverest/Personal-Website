@@ -1,0 +1,44 @@
+html, body {
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0;
+  background-color: black;
+}
+
+a{
+  text-decoration: none;
+  margin-left: 5%;
+  font-weight: 800;
+  color: inherit;
+}
+
+a:visited, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*======== Media Query 400px========*/
+
+@media (max-width: 400px) {
+
+  html, body {
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0;
+    background-color: black;
+  }
+
+  a{
+    text-decoration: none;
+    margin-left: 5%;
+    font-weight: 800;
+    color: inherit;
+  }
+
+  a:visited, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+/*-------- END --------*/

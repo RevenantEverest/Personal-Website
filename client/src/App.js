@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
-//Imported Components
+//Component Imports
 import HomePage from './components/HomePage';
-import Footer from './components/Footer';
+import About from './components/About';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <HomePage />
-        <Footer />
+        <Router>
+          <div className="App-contents">
+            <Route exact path="/" component={HomePage} />
+            <Route path="/About" component={About} />
+          </div>
+        </Router>
       </div>
     );
   }
