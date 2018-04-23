@@ -1,0 +1,393 @@
+.Portfolio {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  color: #dedede;
+  overflow: hidden;
+  transition: 2s;
+}
+
+.Portfolio-container {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0%;
+  overflow: hidden;
+}
+
+.Portfolio-home {
+  position: absolute;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  top: -95%;
+  left: 48%;
+  text-align: center;
+  transition: 1s;
+}
+
+.Portfolio-home:hover {
+  letter-spacing: 50px;
+}
+
+.Portfolio-contents {
+  position: absolute;
+  height: 80vh;
+  width: 80%;
+  top: 10%;
+  left: 7.5%;
+  overflow: hidden;
+}
+
+/*======== Portfolio Box 1 ========*/
+
+/* Main */
+.Portfolio-circle-one-header {
+  position: absolute;
+  top: -24%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 60px;
+}
+
+.Portfolio-circle-one-description {
+  position: absolute;
+  top: -16%;
+  left: 30%;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.Portfolio-circle-one {
+  position: absolute;
+  height: 50vh;
+  width: 62%;
+  top: 15%;
+  left: 20%;
+  border-style: solid;
+  border-color: #dedede;
+  transition: 1s;
+}
+
+.Portfolio-circle-one:hover {
+  background-color: rgba(255,255,255,0.5);
+  transition: 1s;
+}
+/* END */
+
+/* Images */
+.Portfolio-circle-one-inner-one {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url(../images/portfolio/Siletha/titleScreen.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 1s;
+}
+
+.Portfolio-circle-one-inner-two {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url(../images/portfolio/Siletha/characterSelect.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 1s;
+}
+
+.Portfolio-circle-one-inner-three {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url(../images/portfolio/Siletha/createCharacter.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 1s;
+}
+
+.Portfolio-circle-one-inner-four {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url(../images/portfolio/Siletha/game.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 1s;
+}
+
+.Portfolio-circle-one-inner-five {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url(../images/portfolio/Siletha/shop.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 1s;
+}
+
+.Portfolio-circle-one-inner-six {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url(../images/portfolio/Siletha/townNoticeBoard.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 1s;
+}
+
+.Portfolio-circle-one-inner-seven {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url(../images/portfolio/Siletha/fireballFight.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 1s;
+}
+
+.Portfolio-circle-one-inner-eight {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url(../images/portfolio/Siletha/shadowBallFight.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 1s;
+}
+
+.Portfolio-circle-one-inner-one:hover, .Portfolio-circle-one-inner-two:hover, .Portfolio-circle-one-inner-three:hover {
+  cursor: e-resize;
+}
+
+.Portfolio-circle-one-inner-four:hover, .Portfolio-circle-one-inner-five:hover, .Portfolio-circle-one-inner-six:hover {
+  cursor: e-resize;
+}
+
+.Portfolio-circle-one-inner-seven:hover, .Portfolio-circle-one-inner-eight:hover {
+  cursor: e-resize;
+}
+/* END */
+
+/*-------- END --------*/
+
+/*======== Portfolio Circle Two ========*/
+
+.Portfolio-circle-two {
+  position: absolute;
+  height: 50vh;
+  width: 62%;
+  top: 15%;
+  left: -100%;
+  border-style: solid;
+  border-color: #dedede;
+  transition: 1s;
+}
+
+.Portfolio-circle-two:hover {
+  background-color: rgba(255,255,255,0.5);
+  transition: 1s;
+}
+
+.Portfolio-circle-two-header {
+  position: absolute;
+  top: -24%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 60px;
+}
+
+.Portfolio-circle-two-description {
+  position: absolute;
+  top: -16%;
+  left: 30%;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+/* Images */
+
+.Portfolio-circle-two-inner-one {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url(../images/portfolio/Crypton/CryptonLogo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 1s;
+}
+
+.Portfolio-circle-two-inner-two {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url(../images/portfolio/Crypton/Crypton1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 1s;
+}
+
+.Portfolio-circle-two-inner-three {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url(../images/portfolio/Crypton/Crypton2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 1s;
+}
+
+.Portfolio-circle-two-inner-four {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url(../images/portfolio/Crypton/Crypton3.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 1s;
+}
+
+.Portfolio-circle-two-inner-five {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url(../images/portfolio/Crypton/Crypton4.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 1s;
+}
+
+.Portfolio-circle-two-inner-six {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url(../images/portfolio/Crypton/Crypton5.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 1s;
+}
+
+.Portfolio-circle-two-inner-seven {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url(../images/portfolio/Crypton/Crypton6.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 1s;
+}
+
+.Portfolio-circle-two-inner-eight {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url(../images/portfolio/Crypton/Crypton7.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 1s;
+}
+
+.Portfolio-circle-two-inner-nine {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: url(../images/portfolio/Crypton/Crypton8.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: 1s;
+}
+
+/* END */
+
+/*-------- END --------*/
+
+.Portfolio-move-left {
+  position: absolute;
+  top: 35%;
+  left: 1%;
+  height: 20vh;
+  width: 20%;
+  font-size: 100px;
+}
+
+.Portfolio-move-left:hover {
+  cursor: pointer;
+}
+
+.Portfolio-move-right {
+  position: absolute;
+  top: 35%;
+  left: 94%;
+  height: 20vh;
+  width: 20%;
+  font-size: 100px;
+}
+
+.Portfolio-move-right:hover {
+  cursor: pointer;
+}
+
+.Portfolio-about {
+  position: absolute;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  top: 93%;
+  left: 15%;
+  text-align: center;
+  transition: 1s;
+}
+
+.Portfolio-about:hover {
+  cursor: pointer;
+  letter-spacing: 50px;
+}
+
+.Portfolio-contact {
+  position: absolute;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  top: 93%;
+  left: 75%;
+  text-align: center;
+  transition: 1s;
+}
+
+.Portfolio-contact:hover {
+  cursor: pointer;
+  letter-spacing: 50px;
+}

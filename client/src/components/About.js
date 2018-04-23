@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import '../public/style/About.css';
 
-import Particles from 'react-particles-js';
-
 class About extends Component {
 
   constructor() {
@@ -10,9 +8,6 @@ class About extends Component {
     this.state = {
       fireRedirect: false
     }
-  }
-
-  componentDidMount() {
   }
 
   handleTransitionTo() {
@@ -26,16 +21,24 @@ class About extends Component {
     }, 1000)
   }
 
+  handleTransitionFrom() {
+    let portfolio = document.querySelector('.Portfolio');
+    portfolio.style.height = "100vh";
+  }
+
   render() {
     return(
       <div className="About">
-        <Particles />
+        {/* <div className="About-particles">
+          <Particles />
+        </div> */}
         <div className="About-contents-box">
+          <h1 className="About-Portfolio" onClick={(e) => this.handleTransitionFrom()}>PORTFOLIO</h1>
           <h1 className="About-header">ABOUT</h1>
           <div className="About-header-underline"></div>
 
-          <p className="About-text">I'm a New York based developer, in search of new opportunities.</p>
 
+          <p className="About-text">I'm a New York based developer, in search of new opportunities.</p>
           <div className="About-facebook-icon"></div>
           <p className="About-facebook-link"></p>
 
