@@ -17,6 +17,7 @@
   background-attachment: fixed;
   background-size: 100%;
   transition: 2s;
+  animation: 1s linear fadeIn;
 }
 
 .HomePage-box1-vignette {
@@ -81,10 +82,10 @@
 
 .HomePage-Arrow {
   position: relative;
-  top: 30%;
-  left: 51%;
+  top: 18%;
+  left: 50%;
   color: #dedede;
-  font-size: 65px;
+  font-size: 85px;
   font-weight: lighter;
   animation: 6s linear fadeIn;
 }

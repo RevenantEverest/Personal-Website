@@ -26,14 +26,17 @@ class About extends Component {
     portfolio.style.height = "100vh";
   }
 
+  handleTransitionContact() {
+    let main = document.querySelector('.About');
+    main.style.height = "0vh";
+  }
+
   render() {
     return(
       <div className="About">
-        {/* <div className="About-particles">
-          <Particles />
-        </div> */}
         <div className="About-contents-box">
           <h1 className="About-Portfolio" onClick={(e) => this.handleTransitionFrom()}>PORTFOLIO</h1>
+          <h1 className="About-Contact" onClick={(e) => this.handleTransitionContact()}>CONTACT</h1>
           <h1 className="About-header">ABOUT</h1>
           <div className="About-header-underline"></div>
 

@@ -69,6 +69,23 @@ class Portfolio extends Component {
     main.style.height = "0vh";
   }
 
+  handleContactTransition() {
+    let about = document.querySelector('.About');
+    let portfolio = document.querySelector('.Portfolio');
+
+    about.style.display = "none";
+    // about.style.height = "0vh";
+    portfolio.style.height = "0vh";
+  }
+
+  handleSilethaRedirect() {
+    window.location = "https://github.com/RevenantEverest/Siletha-2D"
+  }
+
+  handleCryptonRedirect() {
+    window.location = "https://github.com/RevenantEverest/Crypton"
+  }
+
   handlePortfolioOne() {
     if(this.state.currentBoxOneState === 7) {
       this.setState({
@@ -106,14 +123,14 @@ class Portfolio extends Component {
         <div className="Portfolio-contents">
 
           <div className="Portfolio-circle-one">
-            <h1 className="Portfolio-circle-one-header">Siletha</h1>
+            <h1 className="Portfolio-circle-one-header"  onClick={(e) => this.handleSilethaRedirect()}>Siletha</h1>
             <p className="Portfolio-circle-one-description">A browser RPG made in React.js and Express.js</p>
             <div className={`${this.state.portfolioBoxOne}`} onClick={(e) => this.handlePortfolioOne()}>
             </div>
           </div>
 
           <div className="Portfolio-circle-two">
-            <h1 className="Portfolio-circle-two-header">Crypton</h1>
+            <h1 className="Portfolio-circle-two-header" onClick={(e) => this.handleCryptonRedirect()}>Crypton</h1>
             <p className="Portfolio-circle-two-description">An attempt at a crypto-currency in Golang</p>
             <div className={`${this.state.portfolioBoxTwo}`} onClick={(e) => this.handlePortfolioTwo()}>
             </div>
