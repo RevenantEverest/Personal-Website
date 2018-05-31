@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-import '../public/style/HomePage.css';
+import './HomePage.css';
+
+//Media Queries
+import './HomePage(MobileL).css';
+import './HomePage(MobileM).css';
+import './HomePage(MobileS).css';
 
 import disableScroll from 'disable-scroll';
 
@@ -38,9 +43,9 @@ class HomePage extends Component {
                 <h1 className="HomePage-Name-one">Stefan</h1>
                 <h1 className="HomePage-Name-two">Fischer</h1>
                 <div className="HomePage-rectangle"></div>
-                <h2 className="HomePage-Skills">Graphic Designer</h2>
-                <h2 className="HomePage-Skills">Web Developer</h2>
-                <h2 className="HomePage-Skills">Visual Effects Artist</h2>
+                <h2 className="HomePage-Skills-GraphicDesigner">Graphic Designer</h2>
+                <h2 className="HomePage-Skills-WebDeveloper">Web Developer</h2>
+                <h2 className="HomePage-Skills-VFX">Visual Effects Artist</h2>
                 <p className="HomePage-Arrow" onClick={(e) => this.handleTransition()}>&darr;</p>
               </div>
             </div>

@@ -1,0 +1,114 @@
+@media all and (max-width: 375px) {
+  html, body {
+    max-height: 100vh;
+    max-width: 100vw;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+  }
+
+  a{
+    text-decoration: none;
+    margin-left: 5%;
+    font-weight: 800;
+    color: inherit;
+  }
+
+  a:visited, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /*======== Media Query 400px========*/
+
+  @media (max-width: 400px) {
+
+    html, body {
+      max-height: 100%;
+      max-width: 100%;
+      margin: 0;
+      background-color: black;
+    }
+
+    a{
+      text-decoration: none;
+      margin-left: 5%;
+      font-weight: 800;
+      color: inherit;
+    }
+
+    a:visited, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  /*-------- END --------*/
+
+  /*======== Loading ========*/
+
+  .App-Loading {
+    height: 100vh;
+    width: 100%;
+    background-color: #0d0d0d0d;
+    transition: 2s;
+  }
+
+  .App-Logo {
+    position: relative;
+    height: 50vh;
+    width: 50%;
+    top: 35%;
+    left: 25%;
+    background-image: url(../images/Logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation: 5s linear fadeInAndOut;
+  }
+
+  /*-------- END --------*/
+
+  @keyframes fadeInAndOut {
+    0% {
+      opacity: 0;
+    }
+
+    25% {
+      opacity: 1;
+    }
+
+    75% {
+      opacity: 1;
+    }
+
+    90% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes fadeOut {
+    0%,
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+  }
+}

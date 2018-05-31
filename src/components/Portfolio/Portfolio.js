@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../public/style/Portfolio.css';
+import './Portfolio.css';
 
 import Particles from 'react-particles-js';
 
@@ -29,6 +29,10 @@ class Portfolio extends Component {
         'Portfolio-circle-two-inner-seven',
         'Portfolio-circle-two-inner-eight',
         'Portfolio-circle-two-inner-nine'
+      ],
+
+      portfolioBoxThreeStates: [
+
       ],
 
       apiDataRecieved: false,
@@ -74,7 +78,6 @@ class Portfolio extends Component {
     let portfolio = document.querySelector('.Portfolio');
 
     about.style.display = "none";
-    // about.style.height = "0vh";
     portfolio.style.height = "0vh";
   }
 

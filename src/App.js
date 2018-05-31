@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
 //Component Imports
-import HomePage from './components/HomePage';
-import Portfolio from './components/Portfolio';
-import About from './components/About';
-import Contact from './components/Contact';
+import HomePage from './components/HomePage/HomePage';
+import Portfolio from './components/Portfolio/Portfolio';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 
 class App extends Component {
 
@@ -17,7 +17,6 @@ class App extends Component {
 
   componentDidMount() {
     let logo = document.querySelector('.App-Logo');
-    let loading = document.querySelector('.App-Loading');
 
     setTimeout(() => {
       logo.style.display = "none";
