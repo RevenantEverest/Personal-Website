@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway'); /* Raleway Font Import */
 @import url('https://fonts.googleapis.com/css?family=Roboto'); /* Roboto Font Import */
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 350px) {
 
   .HomePage {
     position: relative;
@@ -109,7 +109,7 @@
 
   .HomePage-Arrow {
     position: relative;
-    top: 0%;
+    top: -10%;
     left: 45%;
     color: #dedede;
     font-size: 85px;
