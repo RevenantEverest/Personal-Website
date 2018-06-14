@@ -68,7 +68,31 @@
   animation: 4s linear fadeIn;
 }
 
-.HomePage-Skills {
+.HomePage-Skills-GraphicDesigner {
+  position: relative;
+  margin-top: 2%;
+  left: 33%;
+  display: inline-block;
+  margin-left: 1%;
+  font-weight: 400;
+  font-size: 25px;
+  color: #dedede;
+  animation: 5s linear fadeIn;
+}
+
+.HomePage-Skills-WebDeveloper {
+  position: relative;
+  margin-top: 2%;
+  left: 33%;
+  display: inline-block;
+  margin-left: 1%;
+  font-weight: 400;
+  font-size: 25px;
+  color: #dedede;
+  animation: 5s linear fadeIn;
+}
+
+.HomePage-Skills-VFX {
   position: relative;
   margin-top: 2%;
   left: 33%;
